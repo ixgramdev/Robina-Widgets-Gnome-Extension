@@ -1,13 +1,4 @@
-<table align="center">
-  <tr>
-    <td>
-      <img src="imgs/robinawidgetslogo.png" width="70" style="border-radius: 12px;">
-    </td>
-    <td>
-      <h1 style="margin-left: 10px;">Robina Widgets</h1>
-    </td>
-  </tr>
-</table>
+#Robina Widgets
 
 <p align="center">
   <img src="imgs/preview.png" alt="Preview de Robina Widgets">
