@@ -71,3 +71,4 @@ stylesheet-gen.css
 .env
 secrets.*
 credentials.json
+git 
