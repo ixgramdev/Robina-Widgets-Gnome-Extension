@@ -1,0 +1,73 @@
+# ----------------------------
+# Archivos del sistema / IDE
+# ----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*~
+*.swp
+*.swn
+*.bak
+
+# ----------------------------
+# Node / bundlers
+# ----------------------------
+node_modules/
+.dist/
+build/
+lib/
+out/
+target/
+.cache/
+.parcel-cache/
+
+# ----------------------------
+# Logs / temp
+# ----------------------------
+*.log
+*.tmp
+*.temp
+
+# ----------------------------
+# Python
+venv/
+__pycache__/
+
+# ----------------------------
+# Artefactos
+*.zip
+*.tar.gz
+*.tgz
+
+# ----------------------------
+# GNOME extension specifics
+# ----------------------------
+
+# Esquemas compilados NO deben subirse
+gschemas.compiled
+
+# Archivos binarios de traducciones (NO se suben)
+locale/**/*.mo
+
+# Solo subimos .po si existieran (si NO tienes .po, ignora toda la carpeta)
+# locale/**/*.po
+
+# Archivos generados de CSS
+stylesheet-gen.css
+
+# Solo subir stylesheet.css si ES TUYO
+# Si es generado, ignóralo también:
+# stylesheet.css
+
+# Si fonts/ contiene fuentes externas o no son parte del código
+# fonts/
+
+# ----------------------------
+# Otros
+# ----------------------------
+.goutputstream-*
+.env
+secrets.*
+credentials.json

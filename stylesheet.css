@@ -1,0 +1,43 @@
+
+.day-widget {
+  min-width: 200px;
+  padding: 12px 20px;
+}
+
+.robina-day-label {
+  font-family: "Nixmat", sans-serif;
+  font-weight: 900;
+  color: #ffffff;
+  text-shadow: 0 6px 18px rgba(6,10,28,0.6), 0 1px 0 rgba(255,255,255,0.02);
+  text-transform: uppercase;
+  transform-origin: center center;
+  text-align: center;
+  font-size: 50px;
+}
+
+.robina-date-label {
+  font-family: "Nixmat", sans-serif;
+  font-weight: 500;
+  color: rgba(255,255,255,0.9);
+  text-shadow: 0 4px 12px rgba(6,10,28,0.45);
+  opacity: 0.95;
+  text-align: center;
+}
+
+.day-widget.show {
+  opacity: 1;
+  transform: translateY(0px) scale(1);
+}
+
+.day-widget {
+  transform: translateY(6px) scale(0.995);
+}
+
+@media (max-width: 1280px) {
+  .robina-day-label { letter-spacing: 2px; }
+  .robina-date-label { opacity: 0.95; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .day-widget { transition: none; transform: none; }
+}
