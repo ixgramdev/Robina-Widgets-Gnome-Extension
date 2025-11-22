@@ -1,17 +1,18 @@
-<p align="center">
-  &nbsp;&nbsp;
-  <img src="imgs/robinawidgetslogo.png" 
-       alt="Robina Widgets Logo" 
-       width="60" 
-       style="border-radius: 12px; vertical-align: middle;">
-    <span style="font-size: 32px; font-weight: bold; padding: 5px; vertical-align: middle;">
-    Robina Widgets
-  </span>
-</p>
+<table align="center">
+  <tr>
+    <td>
+      <img src="imgs/robinawidgetslogo.png" width="70" style="border-radius: 12px;">
+    </td>
+    <td>
+      <h1 style="margin-left: 10px;">Robina Widgets</h1>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <img src="imgs/preview.png" alt="Preview de Robina Widgets">
 </p>
+
 
 
 
